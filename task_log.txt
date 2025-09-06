@@ -8,7 +8,10 @@ dos três algoritmos desenvolvidos (para os parâmetros utilizados inicialmente)
 - feita a exaustão, passa-se aos testes de estresse sobre parâmetros
 
 // -----------------------------------------------------------------
-00/00/0000 // ------------------------------------------------------
-
+06/09/2025 // ------------------------------------------------------
+- Discutido teste de paralelismo feito em PyTorch?
+- Relatados resultados dos testes de paralelismo e próximas abordagens de paralelismo (uso por mieo
+de WSL, com libs do CUDA).
+- Discutido método de convergência mais sensível e independente de parâmetros contextuais
 
 // -----------------------------------------------------------------
