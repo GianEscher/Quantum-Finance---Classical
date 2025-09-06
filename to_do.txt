@@ -12,6 +12,7 @@
 #JOÃO ----------------------------------------------
 - investigar implementações de paralelismo em Python (opções de lib: Pytorch, Jax)
 (averiguar ordem de escrita)
+- instalar o WSL para rodar utilizando recursos/libs do CUDA.
 - testar encontros anteriores com o simulated annealing
 (averiguar execução com a versão serial)
 
