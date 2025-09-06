@@ -1,20 +1,26 @@
 
 #GIANCARLO ------------------------------------------
-- validação: por exaustão -> obter desvio padrão
+- [OK] validação: por exaustão -> obter desvio padrão 
+- critérios de parada - testar e exemplificar os dois (corte percentual sobre iterações na primeira tangente 0 - 10%,20%,...)
 - gerar testes individuais de estresse:
     - número de ativos > convergência (!!) (variar de 10 em 10, de 10 até 100, -> extra: se der 1.000 - 8.000)
     - variando cooling factor
     - variando deformação +- 25% dos pesos pós normalização e seleção no ciclo inicial
+- conectar algoritmo de desenho da fronteira com base do Markowitz
 - cortar plots para geração dos tests -> exibir apenas último
 
 - visualizações para tempo de execução
 
+#BERNARDO ------------------------------------------
+- [OK] Gerar algoritmo para desenho da fronteira eficiente com base em parâmetros aleatórios
+
 #JOÃO ----------------------------------------------
-- investigar implementações de paralelismo em Python (opções de lib: Pytorch, Jax)
+- [OK] investigar implementações de paralelismo em Python (opções de lib: Pytorch, Jax)
 (averiguar ordem de escrita)
-- instalar o WSL para rodar utilizando recursos/libs do CUDA.
+- [OK] instalar o WSL para rodar utilizando recursos/libs do CUDA.
 - testar encontros anteriores com o simulated annealing
 (averiguar execução com a versão serial)
+- Investigar possibilidades de critério de convergência na área de Análise de sinais (talvez pertinentes à abordagens preditiva?)
 
 //futuramente
 - descobrir vizinhos discretos reais
