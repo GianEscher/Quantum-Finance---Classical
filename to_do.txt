@@ -1,0 +1,36 @@
+
+#GIANCARLO ------------------------------------------
+- validação: por exaustão -> obter desvio padrão
+- gerar testes individuais de estresse:
+    - número de ativos > convergência (!!) (variar de 10 em 10, de 10 até 100, -> extra: se der 1.000 - 8.000)
+    - variando cooling factor
+    - variando deformação +- 25% dos pesos pós normalização e seleção no ciclo inicial
+- cortar plots para geração dos tests -> exibir apenas último
+
+- visualizações para tempo de execução
+
+#JOÃO ----------------------------------------------
+- investigar implementações de paralelismo em Python (opções de lib: Pytorch, Jax)
+(averiguar ordem de escrita)
+- testar encontros anteriores com o simulated annealing
+(averiguar execução com a versão serial)
+
+//futuramente
+- descobrir vizinhos discretos reais
+- versão auto-paramétrica
+- otimização via polars ?
+
+x = 1
+
+y = x + 1
+y = 3*x
+
+2, 3
+3, 4
+
+controlar por aproximação de valores de peso:
+
+norma L2 distÂncia entre duas iterações 
+norma LInfinito - maior distância (erro)
+
+B1*0.0935711649277635 + B2*0.0935269436510601 + B3*0.179926469688814 + B4*0.0927692148381178 + B5*0.0755549949275409 + B6*0.0716335095587863 + B7*-0.0394192738280996 + B8*0.129267603381215 + B9*0.0655073082430659 + B10*0.135201716278726 + B11*0.0935365140390158 + B12*0.01799040488536 + B13*0.0971107131748647 + B14*0.0527201922116797 + B15*0.0468167922704916 + B16*0.0549123674891303 + B17*0.0691030066080744 + B18*-0.0265185355641117 + B19*0.0181163267137873 + B20*0.0230284430751019 + B21*0.0392016232464789 + B22*0.10224792187981 + B23*0.0662272928094929 + B24*0.0649297709454932 + B25*0.0555222553520637

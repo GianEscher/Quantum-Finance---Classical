@@ -1,0 +1,14 @@
+
+23/08/2025 // ------------------------------------------------------
+- será apresentado um teste de proximidade entre soluções heurísticas consolidadas e os três algoritmos desenvolvidos
+- neste teste, não é necessário expor o máximo da performance de cada solução, mas sim mostrar que ambas convergem
+na escala de 3 casas decimais
+- constatada essa relação, passa-se aos testes de validação por exaustão, extraindo o máximo da performance
+dos três algoritmos desenvolvidos (para os parâmetros utilizados inicialmente)
+- feita a exaustão, passa-se aos testes de estresse sobre parâmetros
+
+// -----------------------------------------------------------------
+00/00/0000 // ------------------------------------------------------
+
+
+// -----------------------------------------------------------------
