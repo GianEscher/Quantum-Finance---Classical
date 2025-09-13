@@ -9,6 +9,9 @@
 - conectar algoritmo de desenho da fronteira com base do Markowitz
 - cortar plots para geração dos tests -> exibir apenas último
 
+- incluir teste de offset de mínimos -> confrontar mínimo do SA com o desenho da fronteira eficiente.
+- geração estatística de valores, no lugar dos ativos (ingredientes: range, std, )
+
 - visualizações para tempo de execução
 
 #BERNARDO ------------------------------------------
